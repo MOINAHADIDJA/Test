@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="compteur"></h1>
+    <button type="button" name="button" onclick="compter()">Cliquez ici</button>
+    <script >
+
+      console.log(6);
+      var compteur = 0;
+  console.log(compteur)
+      function compter(){
+
+        compteur++;
+        const eltCompteur = document.getElementById("compteur");
+        console.log(compteur)
+        eltCompteur.textContent = compteur;
+      }
+    </script>
+  </body>
+
+</html>
